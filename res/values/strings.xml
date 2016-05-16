@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MaintActivity!</string>
+    <string name="app_name">极速助手</string>
+	<string name="module_0">应用管理</string>
+	<string name="module_1">资源管理</string>
+	<string name="module_2">通讯管理</string>
+	<string name="module_3">隐私管理</string>
+	<string name="module_3_1">程序锁保护</string>
+	<string name="module_4">流量管理</string>
+	<string name="module_5">电源管理</string>
+	<string name="loading">加载中……</string>
+	<string name="app_title">应用名称:</string>
+	<string name="app_version">版本:</string>
+	<string name="app_size">大小:</string>
+
+	<!-- 通讯管理 -->
+	<string name="backup_sms">备份短信</string>
+	<string name="recovery_sms">还原短信</string>
+	<string name="backup_success">备份短信成功!</string>
+	<string name="backup_error">备份短信失败!</string>
+	<string name="recovery_success">还原短信成功!</string>
+	<string name="recovery_error">还原短信失败!</string>
+	<string name="backup_tip">操作提示</string>
+	<string name="backup_loading">短信备份中...</string>
+	<string name="recovery_loading">还原短信中...</string>
+
+	<!-- 应用管理 -->
+	<string name="show_all">全部应用</string>
+	<string name="show_third_apps">非系统应用</string>
+	<string name="show_sys_apps">系统应用</string>
+	<string name="dialog_title">卸载提示</string>
+	<string name="dialog_apkUninstall">亲，确定要卸载应用?</string>
+	<string name="submit">确定</string>
+	<string name="cancel">取消</string>
+	<string name="size_internal">可用内存：</string>
+	<string name="app_open">打开</string>
+	<string name="app_uninstall">卸载</string>
+	<string name="size_external">可用SDCard：</string>
+
+	
+	<!-- 资源管理 -->
+	<string name="file_show">查看</string>
+	<string name="file_delete">删除</string>
+	<string name="no_find_app">无法找到应用程序以执行该操作！ </string>
+	<string name="sdcard_no_sdcard">SDCard卡不存在或写保护、请检查!</string>
+	<string name="sdcard_rootError">获取SDCard根目录错误!</string>
+	<string name="sdcard_is_root_dir">根目录</string>
+	<string name="file_delete_tip">删除提示</string>
+	
+	<!-- 隐私管理 -->
+	<string name="pwd_no_null">密码不能为空！ </string>
+	<string name="pwd_err">密码不正确！</string>
+	<string name="pwd_check_err">新密码或重复密码不能为空，且密码值相同！</string>
+	<string name="unlock_tip">提示：本次解锁后在锁屏操作前会暂停锁保护！</string>
+	<string name="input_pwd">请输入解锁密码</string>
+	<string name="unlock_app">解锁</string>
+	<string name="modify_pwd">修改密码</string>
+	<string name="input_oldpwd">原密码 初始密码0</string>
+	<string name="input_newpwd">新密码</string>
+	<string name="input_repeatpwd">重复密码</string>
+
+	
+	<!-- 电源管理 -->
+	<string name="battery_status">电池状态:</string>
+    <string name="battery_health">电池运行状况:</string>
+    <string name="battery_voltage">电池电压:</string>
+    <string name="battery_temperature">电池温度:</string>
+    <string name="battery_technology">电池技术:</string>
+    <string name="boot_time">启动后时间:</string>    
+    <string name="battery_info_status_unknown">未知</string>
+    <string name="battery_info_status_charging">正在充电</string>
+    <string name="battery_info_status_charging_ac">（交流电）</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
+    <string name="battery_info_status_discharging">正在耗电</string>
+    <string name="battery_info_status_not_charging">未在充电</string>
+    <string name="battery_info_status_full">"电量充足"</string>    
+    <string name="battery_info_health_unknown">未知</string>
+    <string name="battery_info_health_good">正常</string>
+    <string name="battery_info_health_overheat">过热</string>
+    <string name="battery_info_health_dead">没电</string>
+    <string name="battery_info_health_over_voltage">过电压</string>
+    <string name="battery_info_health_unspecified_failure">未知错误</string>    
+    <string name="battery_info_voltage_units">mV</string>    
+    <string name="battery_info_temperature_units">\u00B0 C</string>
+    
+    <!-- 流量管理 -->
+    <string name="show_textview_rx">下载流量KB</string>
+    <string name="show_textview_tx">上传流量KB</string>
+    <string name="show_textview_total">流量总计KB</string>
+    <string name="liuliangdanwei">M</string>
+    <string name="morenliuliang">0.0</string>
+    <string name="now_liuliang_total">当前流量统计</string>
+    <string name="g_down_total">3g下载流量：</string>
+    <string name="g_up_total">3g上传流量：</string>
+    <string name="g_total">3g总计流量：</string>
+    <string name="down_total">下载总流量：</string>
+    <string name="up_total">上传总流量：</string>
+    <string name="total_liuliang">共计总流量：</string>
+    <string name="date_chose_start">选择开始时间</string>
+    <string name="date_chose_over">选择结束时间</string>
+    <string name="search_now"> 查询  </string>
+    <string name="every_apps_data">每个程序流量详情</string>
+    <string name="show_now"> 当前流量 </string>
+</resources>

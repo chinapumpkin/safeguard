@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+   <array name="modules">
+        <item>通讯管理</item>
+		<item>应用管理</item>	
+		<item>隐私管理</item>
+		<item>资源管理</item>
+		<item>电源管理</item>
+		<item>流量管理</item>
+	</array>
+	
+   <array name="text">
+		<item>txt</item>
+		<item>htm</item>
+		<item>html</item>
+		<item>lrc</item>
+	</array>
+	<array name="chm">
+		<item>chm</item>
+	</array>
+	<array name="excel">
+		<item>xlsx</item>
+		<item>xls</item>
+	</array>
+	<array name="word">
+		<item>docx</item>
+		<item>doc</item>
+	</array>
+	<array name="point">
+		<item>pptx</item>
+		<item>ppt</item>
+	</array>
+	<array name="image">
+		<item>png</item>
+		<item>gif</item>
+		<item>jpg</item>
+		<item>jpeg</item>
+		<item>bmp</item>
+	</array>
+	<array name="audio">
+		<item>mp3</item>
+		<item>wav</item>
+		<item>ogg</item>
+		<item>mid</item>
+		<item>wma</item>
+	</array>
+	<array name="packages">
+		<item>jar</item>
+		<item>zip</item>
+		<item>rar</item>
+		<item>gz</item>
+	</array>
+	  
+	<array name="endingVideo">
+		<item>mp4</item> 
+		<item>rm</item>
+		<item>mpg</item>
+		<item>avi</item>
+		<item>mpeg</item>
+		<item>3gp</item>
+	</array>
+	<array name="apk">
+		<item>apk</item>
+	</array>
+</resources>

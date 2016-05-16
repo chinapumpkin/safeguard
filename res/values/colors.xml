@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+	<color name="transparent">#00000000</color>
+  	<color name="progressbar">#11EE3D</color> 
+  	<color name="special_bg">#424850</color> 	
+  	<color name="common_bg">#E7AE73</color>
+  	<color name="top_bg">#97D371</color>
+  	<color name="divider_bg">#9E9E9E</color>
+</resources>

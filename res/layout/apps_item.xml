@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="60dip"
+	android:background="@drawable/list_bg_normal">
+
+	<ImageView android:id="@+id/appinstalled_icon" 
+		android:layout_width="48dip"
+		android:layout_height="48dip" 
+		android:layout_margin="5dp"
+		android:scaleType="centerInside"/>
+
+	<LinearLayout 
+		android:orientation="vertical"
+		android:layout_width="140dip" 
+		android:layout_height="60dip"
+		>
+
+		<TextView android:id="@+id/appinstalled_name" 
+			android:layout_width="140dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="4"
+			android:singleLine="true"
+			android:textColor="@color/black"/>		
+			
+		<TextView android:id="@+id/appinstalled_size"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="3"	
+			android:singleLine="true"
+			android:textSize="12sp"		
+			android:textColor="@color/black"
+			/>
+		<TextView android:id="@+id/appinstalled_version"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="3"
+			android:singleLine="true"
+			android:textSize="12sp"
+			android:textColor="@color/black"
+			/>
+						
+	</LinearLayout>	
+	<LinearLayout 		
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		>
+	<Button android:id="@+id/appinstalled_open"
+		android:layout_width="52dp"
+		android:layout_height="41dp"
+		android:layout_margin="2dip"	
+		android:textSize="15sp"		
+		android:text="@string/app_open"		
+		android:background="@drawable/btn_bg"/>	
+		
+	<Button android:id="@+id/appinstalled_uninstall"
+		android:layout_width="52dp"
+		android:layout_height="41dp"
+		android:layout_margin="2dip"		
+		android:textSize="15sp"
+		android:text="@string/app_uninstall"
+		android:background="@drawable/btn_bg"
+		 />
+	</LinearLayout>
+</LinearLayout>

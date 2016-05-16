@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_1">
+  <RelativeLayout 
+    android:id="@+id/ly_top"
+    android:layout_width="fill_parent"
+	android:layout_height="60dp"
+	android:layout_alignParentTop="true"
+	android:background="@drawable/top_bg">
+    <TextView 
+        android:id="@+id/id_module"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  
+        android:layout_centerInParent="true"      
+        android:gravity="center"
+        android:text="@string/module_5"
+        android:textColor="@color/black"
+        android:background="@drawable/app_label"/>
+  </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/battery_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/battery_full" android:scaleType="matrix"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/battery_green" android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/battery_empty" />
+
+            <ImageView
+                android:id="@+id/charging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bty_charging" 
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/battery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/charging"
+                android:layout_centerVertical="true"
+                android:textSize="18sp" android:textColor="#ffffff" android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="none" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/battery_status"
+                    android:textSize="15sp" 
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/battery_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/TextView02"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/divider_bg">
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/divider_bg">
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/battery_health"
+                    android:textSize="15sp" 
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/battery_health"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/textView1"
+                    android:textSize="15sp" 
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/divider_bg">
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout02"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/battery_voltage"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/battery_voltage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/TextView03"
+                    android:textSize="15sp" 
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/divider_bg" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout03"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/battery_temperature"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/battery_temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/TextView05"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/divider_bg" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout05"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/battery_technology"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/battery_technology"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/TextView04"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/LinearLayout06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:background="@color/divider_bg"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout04"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/boot_time"
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/boot_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/TextView07"
+                    android:text=""
+                    android:textSize="15sp"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
