@@ -1,10 +1,12 @@
-# safeguard[中文版](https://github.com/chinapumpkin/safeguard/blob/master/%E8%AF%B4%E6%98%8E.md)
+# 手机卫士
 
 Mobile Safeguard application for my bachelor thesis
-## introduction
-The development of this system with the design pattern of MVC structure, using SQLite as the background database, Apache as the server processing user requests. The final realization of nine function modules, communication, mobile phone anti-theft guard software management, process management, traffic statistics, mobile phone antivirus, system optimization. The paper analyzes the basic situation of mobile phone, guardian of the target market and the development of the status. Then a detailed description of the design idea, function modules and implementation technology of mobile phone guardian.After testing, the system basically completes the design function. In line with the actual needs, so it has certain practicability
+这是我本科毕业设计的时候做的手机卫士，那时候的手机卫士功能还挺简单，现在各个厂家的手机卫士已经越做越复杂了。
 
-## SQLite database table
+## 简介
+该系统开发结合了MVC结构的设计模式，使用SQLite作为后台数据库，Apache作为服务器处理用户的请求，完成了手机防盗、通信卫士、软件管理、进程管理、流量统计、手机杀毒、系统优化等九个功能模块。本文首先分析了手机卫士设计的基本要求、目标市场以及发展现状。概述手机卫士的设计思路、功能模块和实现技术。经测试，本系统基本完成了设计的功能。符合实际需求，因此具有一定的实用性。
+
+## 数据库表
 1. 号码归属地查询
 
 |属性|数据类型|说明|
@@ -23,7 +25,7 @@ The development of this system with the design pattern of MVC structure, using S
 |number|text|电话号码|
 |name|text|商家名称|
 
-3. virus databse
+3. 病毒库
 
 |属性|数据类型|说明|
 |---|---|---|
@@ -32,6 +34,11 @@ The development of this system with the design pattern of MVC structure, using S
 |type|numeric|病毒类型|
 |name|text|病毒名称|
 |desc|text|后果|
+
+当时做这个应用的时候其实Android手机病毒并不是太多，数据量属于可以接受的范围，因此采取客户端查杀而不是云查杀。因为截止到2012末，Android手机病毒数已接近26,000款。数据量是属于可以接受的范围类，不需要依靠于云杀毒。现在的手机卫士应该都是使用云查杀的。
+## 要求
+ Android 2.3 以上
+
 
 
 
