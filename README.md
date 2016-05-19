@@ -6,6 +6,7 @@ The development of this system with the design pattern of MVC structure, using S
 
 ## SQLite database table
 1. 号码归属地查询
+
 |属性|数据类型|说明|
 |---|---|---|
 |id|integer|自动新增的主键|
@@ -15,6 +16,7 @@ The development of this system with the design pattern of MVC structure, using S
 该表格中的数据时从网络上找到的，可能没有实时更新。可是经过实验，大多数号码都是可以判断的。
 
 2.号码黄页
+
 |属性|数据类型|说明|
 |---|---|---|
 |id|integer|自动新增主键|
